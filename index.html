@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Status Terkini</title>
+    <script src= "https://kit.fontawesome.com/3a0986901b.js" crossorigin="anonymous"></script>
+    <link rel= "stylesheet" href= "style.css">
+
+    <script type="text/javascript">
+        function cari() {
+            document.getElementById("status").href=(("https://m.facebook.com/search/latest/?q=")+ (document.getElementById("cariapa").value));
+        }
+    </script>
+</head>
+
+<body>
+    <div class="kotak-pencarian">
+        <input class="cari-teks" type="search" id="cariapa" placeholder="Cari Apa BosQu??....">
+        <a class="tombol" id="status" href="" onclick="cari()">
+            <i class="fas fa-search "></i> </a>
+    </div>
+
+</body>
+</html>
