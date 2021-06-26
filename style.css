@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    background: #470539
+}
+
+.kotak-pencarian{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #9210ac;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.kotak-pencarian:hover > .cari-teks{
+    width:240px;
+    padding: 0 6px;
+}
+
+.tombol{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #9210ac;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cari-teks{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition:  0.4s;
+    line-height: 40px;
+    width: 0px;
+}
